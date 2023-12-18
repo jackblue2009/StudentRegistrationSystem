@@ -1,0 +1,143 @@
+	body {
+		margin: 0;
+		font-family: Arial, Helvetica, sans-serif;
+		background-image: url("../images/background.jpg");
+	}
+	::selection {
+		background-color: #43A3B2;
+		color: #FFFFFF;
+	}
+	.selected {
+		font-weight: bolder;
+	}
+	h2 {
+		padding: 0;
+	}
+	#container {
+		width: 100%;
+	}
+	.break {
+		clear: both;
+	}
+	.fixedWidth {
+		width: 950px;
+		margin: 0 auto;
+		background-color: #FFFFFF;
+		border: 1px solid #B8E2F8;
+	}
+	#header {
+		padding: 5px 0 10px 15px;
+		background-image: url("../images/logo.jpg");
+		background-position: right;
+		background-repeat: no-repeat;
+		border-bottom: 2px solid #B8E2F8;
+		color: #43A3B2;
+
+	}
+	#header h3 {
+		font-style: italic;
+	}
+	#sidebar ul {
+		list-style: none;
+		padding: 10px 0 10px 0;
+		margin: 0;
+		text-align: center;
+
+	}
+	#nav li {
+		padding: 20px 0 35px 0;
+		border-bottom: 2px solid #B8E2F8;
+	}
+	#nav a {
+		text-decoration: none;
+		color: #43A3B2;
+	}
+	#nav a:hover {
+		text-decoration: underline;
+		color: #43A3B2;
+	}
+	#sidebar {
+		width: 200px;
+		height: 1400px;
+		font-size: 1.4em;
+		font-style: italic;
+		border-right: 2px solid #B8E2F8;
+		z-index: 2;
+		float: left;
+	}
+	/*#logNav li {
+		padding: 5px 0 15px 0;
+		border-top: 2px solid #C9B69F;
+		position: relative;
+		top: 210px;
+	}*/
+	#logBar {
+		width: 100%;
+		height: 30px;
+		z-index: 1;
+		float: right;
+		border-bottom: 2px solid #B8E2F8;
+	}
+	#content {
+		width: 750px;
+		height: 1400px;
+		padding-top: 0;
+		/*position: relative;
+		left: 200px;
+		top: -20px;*/
+		color: #43A3B2;
+		text-align: left;
+		margin-left: 200px;
+	}
+	#topic {
+		width: 450px;
+		height: 1075px;
+		float: left;
+		padding-left: 20px;
+		padding-top: 15px;
+	}
+	#topic p, #topic ol {
+		color: #8E8E8E;
+	}
+	#topic ul {
+		list-style: circle;
+	}
+	#feed {
+		width: 270px;
+		height: 200px;
+		position: relative;
+		top: 25px;
+		left: -5px;
+		float: right;
+	}
+	#feed h2 {
+		position: relative;
+		top: -10px;
+	}
+	#feed ul {
+		margin: 0;
+		padding-top: 0;
+		list-style-image: url("images/feed-icon.png");
+	}
+	#feed li {
+		padding-bottom: 5px;
+		padding-top: 5px;
+		border-bottom: 1px solid #8E8E8E;
+	}
+	#feed a, #topic a {
+		text-decoration: none;
+		color: #43A3B2;
+	}
+	#feed a:hover, #topic a:hover {
+		text-decoration: underline;
+		color: #43A3B2;
+	}
+	#footer {
+		width: 100%;
+		height: 35px;
+		border-top: 2px solid #B8E2F8;
+		text-align: center;
+		padding-top: 15px;
+		font-size: 1.1em;
+		color: #43A3B2;
+	}
